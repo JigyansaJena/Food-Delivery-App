@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import AppDownload from "./components/AppDownload/AppDownload";
 import { useState } from "react";
 import LoginSignUp from "./components/LoginSignUp/LoginSignUp";
+import Chatbot from "./components/Chatbot/Chatbot";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     </div>
     <AppDownload />
     <Footer />
+    <Chatbot />
     </>
   );
 }
